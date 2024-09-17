@@ -1,0 +1,52 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.massa_bassa_dipl">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/dd_815f"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="31">
+
+        <!-- Dodane aktivnosti -->
+        <activity android:name=".Calculator_Power_Amp"/>
+        <activity android:name=".Calculator_Mids_n_Highs"/>
+        <activity android:name=".Calculator_Cone_Area"/>
+        <activity android:name=".MainActivityPodMenu"/>
+        <activity android:name=".Calculator_Different_Cone_Area"/>
+        <activity android:name=".ManualsVideos"/>
+        <activity android:name=".EventsActivity"/>
+        <activity android:name=".SubwooferWiringActivity"/>
+        <activity android:name=".AboutApp" />
+        <activity android:name=".FrequencyGenerator" />
+        <activity android:name=".MainMenuSelector"/>
+        <activity android:name=".CalculatorSelection" />
+        <activity android:name=".RecommenderSub" />
+        <activity android:name=".HelperMenu" />
+        <activity android:name=".RecommenderSpeaker" />
+        <activity android:name=".RecommenderFiveChannel" />
+        <activity android:name=".RecommenderFourChannel" />
+        <activity android:name=".RecommenderTwoChannel" />
+        <activity android:name=".RecommenderMonoblock" />
+        <activity android:name=".RecommenderCompCoax"/>
+        <activity android:name="BuilderHelper"/>
+        <activity android:name=".StepsActivity"/>
+        <activity android:name=".AmpMenu" />
+
+        <activity
+            android:name=".EnterMainPage"
+            android:exported="true"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Massa Bassa</string>
+    <string name="subwoofer_cone_area_calculator" />
+    <string name="size_of_subs_inches" />
+    <string name="calculate" />
+    <string name="error_message" />
+    <string name="choose_upgrade_type" />
+    <string name="select_upgrade_type"/>
+    <string name="event_image" />
+    <string-array name="upgrade_types">
+        <item>Mids</item>
+        <item>Subs</item>
+        <item>Mids and Subs</item>
+    </string-array>
+
+</resources>

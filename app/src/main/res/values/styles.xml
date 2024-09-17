@@ -1,0 +1,21 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#55165e</item>
+        <item name="colorPrimaryDark">#400e4b</item>
+        <item name="colorAccent">#FF4081</item>
+
+        <item name="android:windowBackground">@drawable/background_image</item>
+
+        <!-- Text color -->
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+        <!-- Tema za Spinner sa crnim tekstom -->
+        <style name="SpinnerTheme" parent="Theme.AppCompat.Light">
+            <item name="android:textColorPrimary">@android:color/black</item>
+        </style>
+
+        <!-- Stil za stavke u Spinner-u -->
+        <style name="SpinnerItemStyle" parent="Widget.AppCompat.DropDownItem.Spinner">
+            <item name="android:textColor">@android:color/black</item>
+        </style>
+</resources>
