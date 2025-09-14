@@ -58,11 +58,11 @@ public class AdapterEvent extends RecyclerView.Adapter<AdapterEvent.EventViewHol
     private int getImageResourceForEvent(String eventTitle) {
         // Logic to determine image resource based on event title
         switch (eventTitle) {
-            case "1. Tuning Car Meet Zadar 2024":
+            case "1. Tuning Car Meet Zadar 2025":
                 return R.drawable.zadar_meet;
-            case "Style and Expo Rijeka 2024":
+            case "Style and Expo Rijeka 2025":
                 return R.drawable.meet_rijeka;
-            case "Poreč Auto Moto Show 2024":
+            case "Poreč Auto Moto Show 2025":
                 return R.drawable.meet_porec;
             case "Zagreb Season End":
                 return R.drawable.meet_zagreb;

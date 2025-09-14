@@ -21,7 +21,6 @@ public class Calculator_Cone_Area extends AppCompatActivity {
         subSizeEditText = findViewById(R.id.subSizeEditText);
         calculateButton = findViewById(R.id.calculateButton);
         resultTextView = findViewById(R.id.resultTextView);
-        // Set resultTextView to be invisible if number of subs and size ofsubs are empty
         if (numSubsEditText.getText().toString().equals("") &&
                 subSizeEditText.getText().toString().equals("")) {
             resultTextView.setVisibility(View.GONE);
@@ -57,7 +56,7 @@ public class Calculator_Cone_Area extends AppCompatActivity {
         int numSubs = Integer.parseInt(numSubsStr);
         double sizeSubs = Double.parseDouble(subSizeStr);
         double coneArea = Math.PI * (sizeSubs / 2) * (sizeSubs / 2) * numSubs;
-        String resultMessage = String.format("The cone area is %.2f square units.\n", coneArea);
+        String resultMessage = String.format("The cone area is %.2f square inches.\n", coneArea);
         resultTextView.setVisibility(View.VISIBLE);
         resultTextView.setText(resultMessage);
     }

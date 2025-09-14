@@ -18,7 +18,7 @@ public class Calculator_Mids_n_Highs extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getSupportActionBar().setTitle("Mids And Highs Calculator");
+        getSupportActionBar().setTitle("Mids and Highs Calculator");
         setContentView(R.layout.fragment_mids_highs);
         powerEditText = findViewById(R.id.powerEditText);
         midsRadioGroup = findViewById(R.id.midsRadioGroup);

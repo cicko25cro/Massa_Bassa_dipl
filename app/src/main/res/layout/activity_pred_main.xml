@@ -41,7 +41,7 @@
         android:background="@android:color/white"
         android:onClick="ChangeFragment"
         android:padding="20dp"
-        android:text="Best of 2024"
+        android:text="Best of 2025"
         android:textAllCaps="false"
         android:textColor="#039BE5"
         android:textSize="24sp"

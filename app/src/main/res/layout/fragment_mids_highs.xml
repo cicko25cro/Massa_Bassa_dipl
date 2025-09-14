@@ -13,7 +13,7 @@
         android:layout_margin="16dp"
         android:gravity="center"
         android:padding="8dp"
-        android:text="Mids and highs power calculator"
+        android:text="Mids and Highs Power Calculator"
         android:textColor="#FFFFFF"
         android:textSize="28sp"
         android:textStyle="bold" />
@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="8dp"
-        android:text="Total Power (Watts)"
+        android:text="Total System Power (Watts)"
         android:textColor="#FFFFFF"
         android:textSize="18sp" />
 

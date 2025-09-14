@@ -3,30 +3,18 @@ package com.example.massa_bassa_dipl;
 public class ManualVideoItem {
     private String title;
     private String description;
-    private String url;
-    private String thumbnailUrl;
+    private String link;
+    private int imageResId;
 
-    public ManualVideoItem(String title, String description, String url,
-                           String thumbnailUrl) {
+    public ManualVideoItem(String title, String description, String link, int imageResId) {
         this.title = title;
         this.description = description;
-        this.url = url;
-        this.thumbnailUrl = thumbnailUrl;
+        this.link = link;
+        this.imageResId = imageResId;
     }
 
-    public String getTitle() {
-        return title;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public String getUrl() {
-        return url;
-    }
-
-    public String getThumbnailUrl() {
-        return thumbnailUrl;
-    }
+    public String getTitle() { return title; }
+    public String getDescription() { return description; }
+    public String getLink() { return link; }
+    public int getImageResId() { return imageResId; }
 }

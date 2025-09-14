@@ -63,7 +63,7 @@ public class HelperMenu extends AppCompatActivity {
                 openActivity4();
             }
         });
-        getSupportActionBar().setTitle("Best of 2024");
+        getSupportActionBar().setTitle("Best of 2025");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
     public void openActivity(){

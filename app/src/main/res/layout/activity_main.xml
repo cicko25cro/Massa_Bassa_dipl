@@ -29,7 +29,7 @@
         android:background="@android:color/white"
         android:onClick="ChangeFragment"
         android:padding="20dp"
-        android:text="Mids And Highs"
+        android:text="Mids and Highs"
         android:textAllCaps="false"
         android:textColor="#039BE5"
         android:textSize="24sp"

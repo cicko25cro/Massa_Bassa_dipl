@@ -45,7 +45,6 @@ public class MainMenuSelector extends AppCompatActivity {
         } else if (id == R.id.CetvrtiSelect) {
             intent = new Intent(this, AboutApp.class);
         } else {
-            // Dodajte dodatnu logiku ako je id nepoznat
             return;
         }
 

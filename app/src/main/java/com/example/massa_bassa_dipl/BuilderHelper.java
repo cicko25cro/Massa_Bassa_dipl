@@ -25,7 +25,6 @@ public class BuilderHelper extends AppCompatActivity {
 
         itemSpinner = findViewById(R.id.itemSpinner);
 
-        // Definiranje stavki za spinner
         items = new String[]{"Select an item", "How to build an enclosure?", "How to tune your amplifier?", "How to install your car speakers?", "How to wire a car stereo?"};
 
         // Adapter za spinner
@@ -37,7 +36,7 @@ public class BuilderHelper extends AppCompatActivity {
         itemSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                if (position > 0) { // Preskače "Select an item"
+                if (position > 0) {
                     Intent intent = new Intent(BuilderHelper.this, StepsActivity.class);
                     intent.putExtra("item", items[position]);
                     intent.putExtra("itemPosition", position);
@@ -47,7 +46,7 @@ public class BuilderHelper extends AppCompatActivity {
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
-                // Nije selektovan ni jedan item
+
             }
         });
     }
